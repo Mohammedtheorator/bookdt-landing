@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="fv-top-bl"><circle cx="100" cy="68" r="56"/></clipPath>
+    <clipPath id="fv-top-br"><circle cx="100" cy="68" r="56"/></clipPath>
+    <clipPath id="fv-bl-br"><circle cx="70" cy="120" r="56"/></clipPath>
+    <clipPath id="fv-tri-a"><circle cx="100" cy="68" r="56"/></clipPath>
+    <clipPath id="fv-tri-b"><circle cx="70" cy="120" r="56"/></clipPath>
+  </defs>
+  <rect width="200" height="200" fill="#0F1020"/>
+  <circle cx="100" cy="68" r="56" fill="#FF6B5B"/>
+  <circle cx="70" cy="120" r="56" fill="#6B3FA0"/>
+  <circle cx="130" cy="120" r="56" fill="#FFD23F"/>
+  <circle cx="70" cy="120" r="56" fill="#C44B7D" clip-path="url(#fv-top-bl)"/>
+  <circle cx="130" cy="120" r="56" fill="#FF9D3A" clip-path="url(#fv-top-br)"/>
+  <circle cx="130" cy="120" r="56" fill="#7BA05B" clip-path="url(#fv-bl-br)"/>
+  <g clip-path="url(#fv-tri-a)">
+    <circle cx="130" cy="120" r="56" fill="#B96A4A" clip-path="url(#fv-tri-b)"/>
+  </g>
+  <text x="100" y="110" text-anchor="middle" dominant-baseline="middle" font-family="DM Sans, sans-serif" font-size="38" font-weight="700" fill="white">10</text>
+</svg>
