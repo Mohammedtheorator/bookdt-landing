@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 // i.e. the site root — not a GitHub project subpath. Do NOT change to '/repo/'.
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  base: './',
   build: {
     outDir: 'dist',
     sourcemap: false,
